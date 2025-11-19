@@ -1,0 +1,1 @@
+declare module 'vanta/dist/vanta.birds.min'; // para to dun vanta birds thingy
