@@ -1,0 +1,6 @@
+import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
+import { Link } from 'react-router-dom';
+function Navigationbar() {
+    return (_jsxs("nav", { className: "p-6 flex", children: [_jsx(Link, { to: "/", className: "font-medium text-2xl cursor-pointer", children: "Bestie" }), _jsx("div", { className: "hidden md:block ml-auto space-x-4 items-center", children: _jsxs("div", { className: "flex transition-all duration-500 ease-in-out opacity-100 md:opacity-0 lg:opacity-100 justify-center space-x-6 font-semibold text-lg", children: [_jsx(Link, { to: "/mood", className: "cursor-pointer transform transition-all ease-in-out duration-500 hover:rotate-5", children: "Mood" }), _jsx(Link, { to: "/unsaid-thoughts", className: "cursor-pointer transform transition-all ease-in-out duration-500 hover:rotate-5", children: "Journal" }), _jsx(Link, { to: "", className: "cursor-pointer bg-amber-200 transform transition-all ease-in-out duration-500 hover:-translate-y-2", children: "Bestie AI" }), _jsx(Link, { to: "/coping-tools", className: "cursor-pointer transform transition-all ease-in-out duration-500 hover:rotate-5", children: "Coping Tools" }), _jsx(Link, { to: "/time-capsule", className: "cursor-pointer transform transition-all ease-in-out duration-500 hover:rotate-5", children: "Time Capsule" })] }) })] }));
+}
+export default Navigationbar;
