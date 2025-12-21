@@ -48,12 +48,6 @@ function Navigationbar() {
                     </Link>
                 </div>
             </div>
-
-            <div className = "ml-auto flex items-center">
-                <a href = "">
-                    <button className = "p-2 w-20 rounded-full font-semibold bg-[#C8D9E6] hover:bg-blue-100 cursor-pointer justify-end">Login</button>
-                </a>
-            </div>
         </nav>
     )
 }

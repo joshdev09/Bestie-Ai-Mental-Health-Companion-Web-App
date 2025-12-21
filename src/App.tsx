@@ -6,6 +6,7 @@ import Copingtools from './sections/Copingtools'
 import UnsaidThoughts from './sections/UnsaidThoughts'
 import TimeCapsule from './sections/TimeCapsule'
 import BestieAiChat from './sections/BestieAiChat'
+import VantaBirds from './components/VantaBirds'
 import { Routes, Route } from 'react-router-dom'
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Navigationbar />
       
       <Routes>
+        <Route path = "/vanta-birds" element = {<VantaBirds />} />
         <Route path = "/" element = {<Bodysection />} />
         <Route path = "/mood" element = {<Mood />} />
         <Route path = "/coping-tools" element = {<Copingtools/>} />
